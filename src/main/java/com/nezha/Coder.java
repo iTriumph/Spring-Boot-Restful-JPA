@@ -13,6 +13,8 @@ public class Coder {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
+
+    @Column
     private String name;
     private Integer age;
     public Coder(){
